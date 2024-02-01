@@ -12,7 +12,7 @@ https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-prof
 
 This dataset will facilitate meaningful insights and potentially reveal new correlations and patterns important for personalized medicine and therapeutic advancements.
 
-*** Dataset Structure: *** It contains 1904 entries and 693 columns. Columns include a mix of numerical and categorical data types.
+*** Dataset Structure: *** It contains 1904 entries and 693 (520 excluding mutation data) columns. Columns include a mix of numerical and categorical data types.
 
 1. Data Exploration
 2. Data Preprocessing and Exploratory Data Analysis (EDA)
