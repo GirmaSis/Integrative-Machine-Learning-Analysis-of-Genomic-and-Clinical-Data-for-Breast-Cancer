@@ -12,14 +12,14 @@ https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-prof
 
 This dataset will facilitate meaningful insights and potentially reveal new correlations and patterns important for personalized medicine and therapeutic advancements.
 
-*** Dataset Structure: *** It contains 1904 entries and 693 (520 excluding mutation data) columns. Columns include a mix of numerical and categorical data types.
+***Dataset Structure:*** It contains 1904 entries and 693 (520 excluding mutation data) columns. Columns include a mix of numerical and categorical data types.
 
 1. Data Exploration
 2. Data Preprocessing and Exploratory Data Analysis (EDA)
 
 
 
-*** Clinical Data Columns: ***
+***Clinical Data Columns:***
 Clinical Data are vital for understanding patient demographics, cancer characteristics, treatment types, and outcomes. These variables can be used to correlate with genomic data and identify patterns in treatment response, survival rates, and cancer subtypes.
 
 These columns are related to patient information, clinical characteristics, and treatment details.
@@ -32,7 +32,7 @@ These columns are related to patient information, clinical characteristics, and 
 - Outcome Data: overall_survival_months, overall_survival, death_from_cancer
 - Cohort Information: cohort, oncotree_code
 
-*** Genomic Data Columns: ***
+***Genomic Data Columns:***
 Genomic Data are crucial for identifying genetic factors associated with breast cancer. Analyzing gene expression and mutations can help in understanding the molecular mechanisms of the disease and in the development of targeted therapies.
 
 These columns are predominantly gene names or are related to genetic mutations, which are key to understanding the molecular underpinnings of cancer.
@@ -44,5 +44,5 @@ From the dataFrame, '1' indicates the presence of a mutation and '0' indicates i
 There are also specific mutation types listed (like "1069Lfs5", "199Yext60", etc.), which indicate specific mutation events.
 Sparse Data: Many columns seem to have a high frequency of '0' values, suggesting that most mutations are not present in the majority of samples. This is common in mutation data due to the unique nature of cancer genomes.
 
-*** Gene Expression Profile Data: these profiles can help in understanding the molecular basis of diseases like cancer. ***
+***Gene Expression Profile Data:*** these profiles can help in understanding the molecular basis of diseases like cancer.
 
