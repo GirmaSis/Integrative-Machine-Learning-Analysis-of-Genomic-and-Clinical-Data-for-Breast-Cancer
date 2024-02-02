@@ -57,6 +57,7 @@ These columns are predominantly gene names or are related to genetic mutations, 
 - Handling missing values
 - Feature selection/dimensionality reduction
 
+
 For simplicity and to avoid introducing too many dimensions:
 - We apply label encoding to ordinal variables and variables with a high number of categories,
 - One-hot encoding to nominal variables with a lower number of categories.
@@ -76,3 +77,4 @@ Visualizations provide insights into:
 #### Note: 
 - To select impactful features focus on clinical outcomes and genomic features
 - 
+-
