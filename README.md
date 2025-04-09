@@ -1,6 +1,6 @@
-# Integrative Machine Learning Analysis of Genomic and Clinical Data for Breast Cancer
+# Integrative machine learning analysis of genomic and clinical data for breast cancer
 
-To develop an integrative machine learning model that can analyze and interpret the complex relationships between genomic data and clinical outcomes in breast cancer patients.
+> To develop an integrative machine learning model that can analyze and interpret the complex relationships between genomic data and clinical outcomes in breast cancer patients.
 
 ### Project Description:
 Breast cancer, a complex and heterogeneous disease, presents significant challenges in diagnosis, treatment, and prognosis. Advances in genomic sequencing and clinical data collection have opened new avenues for understanding this disease at a molecular level. However, the sheer volume and complexity of the data demand sophisticated analytical approaches.
@@ -16,7 +16,7 @@ Note: 173 mutation columns are removed from the original [Breast-Cancer-Dataset]
 
 ***Dataset Structure:*** It contains 1904 entries and 693 (520 excluding mutation data) columns. Columns include a mix of numerical and categorical data types.
 
-#### 1. Data Exploration and Preprocessing
+#### 1. Data Exploration and preprocessing
 
 ***Clinical Data Columns:***
 Clinical Data are vital for understanding patient demographics, cancer characteristics, treatment types, and outcomes. These variables can be used to correlate with genomic data and identify patterns in treatment response, survival rates, and cancer subtypes.
@@ -74,7 +74,4 @@ Visualizations provide insights into:
 - Chemotherapy and hormone therapy distribution plots would indicate the proportion of patients receiving each type of treatment.
 - Correlation heatmap would help identify potential relationships between a selected subset of features, including age, treatment details, and the last ten genomic features, highlighting how these variables might be related to each other.
 
-#### Note: 
-- To select impactful features focus on clinical outcomes and genomic features
-- 
--
+
