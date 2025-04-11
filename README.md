@@ -2,21 +2,19 @@
 
 > To develop an integrative machine learning model that can analyze and interpret the complex relationships between genomic data and clinical outcomes in breast cancer patients.
 
-### Project Description:
-Breast cancer, a complex and heterogeneous disease, presents significant challenges in diagnosis, treatment, and prognosis. Advances in genomic sequencing and clinical data collection have opened new avenues for understanding this disease at a molecular level. However, the sheer volume and complexity of the data demand sophisticated analytical approaches.
-
+### Project description
 This project aims to harness the power of machine learning to integrate and analyze extensive genomic and clinical data, specifically focusing on breast cancer. Utilizing the METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) dataset, which includes comprehensive gene expression profiles and clinical information from breast cancer patients, this research seeks to uncover novel insights and patterns that could contribute to personalized medicine and improved treatment strategies.
 
 ***Dataset source:***  [Breast-Cancer-Dataset](https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric/data)
 
 This dataset will facilitate meaningful insights and potentially reveal new correlations and patterns important for personalized medicine and therapeutic advancements.
 
-*METABRIC_RNA_Mutation_without_Mutation_Data_3.csv*: 520 columns (498-Genomic Profiles), 1904 entries, 
-Note: 173 mutation columns are removed from the original [Breast-Cancer-Dataset]
+> *METABRIC_RNA_Mutation_without_Mutation_Data_3.csv*: 520 columns (498-Genomic Profiles), 1904 entries, 
+> Note: 173 mutation columns are removed from the original [Breast-Cancer-Dataset]
 
 ***Dataset Structure:*** It contains 1904 entries and 693 (520 excluding mutation data) columns. Columns include a mix of numerical and categorical data types.
 
-#### 1. Data Exploration and preprocessing
+### 1. Data Exploration and preprocessing
 
 ***Clinical Data Columns:***
 Clinical Data are vital for understanding patient demographics, cancer characteristics, treatment types, and outcomes. These variables can be used to correlate with genomic data and identify patterns in treatment response, survival rates, and cancer subtypes.
@@ -67,11 +65,20 @@ Standardizing the numerical features involves **subtracting the mean and dividin
 
 The EDA will help us understand the relationships and distributions within the data further, while feature selection can reduce dimensionality and focus the analysis on the most informative features for predicting breast cancer outcomes.
 
-#### 2. Exploratory Data Analysis (EDA) 
+### 2. Exploratory data analysis (EDA) 
 Visualizations provide insights into:
 - Distribution of ages at diagnosis, 
 - Showing how patients' ages vary within the dataset. 
 - Chemotherapy and hormone therapy distribution plots would indicate the proportion of patients receiving each type of treatment.
 - Correlation heatmap would help identify potential relationships between a selected subset of features, including age, treatment details, and the last ten genomic features, highlighting how these variables might be related to each other.
 
+### Sample plots
 
+<p align="left"> <b> Correlation matrix for selected clinical and gene expression variables </b>
+  <img src="https://github.com/GirmaSis/brain-tumor-mri-CNN-Grad-CAM/blob/main/plots/gradcam_sample_1.png" /> </p>
+<p align="center">  <b> Variables of interest for distribution analysis </b>
+  <img src="https://github.com/GirmaSis/brain-tumor-mri-CNN-Grad-CAM/blob/main/plots/training_metrics.png" />
+</p>
+<p align="center">  <b> Feature importance (logistic regression coefficients) </b>
+  <img src="https://github.com/GirmaSis/brain-tumor-mri-CNN-Grad-CAM/blob/main/plots/training_metrics.png" />
+</p>
