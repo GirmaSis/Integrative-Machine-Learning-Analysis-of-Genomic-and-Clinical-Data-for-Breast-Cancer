@@ -74,11 +74,11 @@ Visualizations provide insights into:
 
 ### Sample plots
 
-<p align="left"> <b> Correlation matrix for selected clinical and gene expression variables </b>
+<p align="left"> Fig. 1: Correlation matrix for selected clinical and gene expression variables 
   <img src="https://github.com/GirmaSis/IntegrativeML-BreastCancer/blob/main/plots/Correlation%20Matrix.png" > </p>
-<p align="center">  <b> Variables of interest for distribution analysis </b>
-  <img src="https://github.com/GirmaSis/IntegrativeML-BreastCancer/blob/main/plots/distribution%20analysis.png" width="45%" />
+<p align="center"> Fig. 2:  Variables of interest for distribution analysis 
+  <img src="https://github.com/GirmaSis/IntegrativeML-BreastCancer/blob/main/plots/distribution%20analysis.png"/>
 </p>
-<p align="center">  <b> Feature importance (logistic regression coefficients) </b>
-  <img src="https://github.com/GirmaSis/IntegrativeML-BreastCancer/blob/main/plots/Logistic%20Regression%20Coefficients.png" width="45%" />
+<p align="center"> Fig. 3: Feature importance (logistic regression coefficients) 
+  <img src="https://github.com/GirmaSis/IntegrativeML-BreastCancer/blob/main/plots/Logistic%20Regression%20Coefficients.png" />
 </p>
