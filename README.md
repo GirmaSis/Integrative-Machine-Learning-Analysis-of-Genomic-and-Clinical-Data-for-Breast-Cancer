@@ -1,6 +1,6 @@
 # Integrative machine learning analysis of genomic and clinical data for breast cancer
 
-> To develop an integrative machine learning model that can analyze and interpret the complex relationships between genomic data and clinical outcomes in breast cancer patients.
+> An integrative machine learning model that can analyze and interpret the complex relationships between genomic data and clinical outcomes in breast cancer patients.
 
 ### Project description
 This project aims to harness the power of machine learning to integrate and analyze extensive genomic and clinical data, specifically focusing on breast cancer. Utilizing the METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) dataset, which includes comprehensive gene expression profiles and clinical information from breast cancer patients, this research seeks to uncover novel insights and patterns that could contribute to personalized medicine and improved treatment strategies.
@@ -75,10 +75,10 @@ Visualizations provide insights into:
 ### Sample plots
 
 <p align="left"> <b> Correlation matrix for selected clinical and gene expression variables </b>
-  <img src="https://github.com/GirmaSis/brain-tumor-mri-CNN-Grad-CAM/blob/main/plots/gradcam_sample_1.png" /> </p>
+  <img src="https://github.com/GirmaSis/IntegrativeML-BreastCancer/blob/main/plots/Correlation%20Matrix.png" > </p>
 <p align="center">  <b> Variables of interest for distribution analysis </b>
-  <img src="https://github.com/GirmaSis/brain-tumor-mri-CNN-Grad-CAM/blob/main/plots/training_metrics.png" />
+  <img src="https://github.com/GirmaSis/IntegrativeML-BreastCancer/blob/main/plots/distribution%20analysis.png" width="45%" />
 </p>
 <p align="center">  <b> Feature importance (logistic regression coefficients) </b>
-  <img src="https://github.com/GirmaSis/brain-tumor-mri-CNN-Grad-CAM/blob/main/plots/training_metrics.png" />
+  <img src="https://github.com/GirmaSis/IntegrativeML-BreastCancer/blob/main/plots/Logistic%20Regression%20Coefficients.png" width="45%" />
 </p>
